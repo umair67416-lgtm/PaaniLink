@@ -1,0 +1,12 @@
+{
+  "name": "paanilink-semester-website",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "reset": "node server.mjs --reset",
+    "check": "node --check server.mjs"
+  },
+  "engines": {"node": ">=18"}
+}
